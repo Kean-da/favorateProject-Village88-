@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(224, 239, 244);
+    margin: auto;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.container {
+    width: 970px;
+    padding: 0 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+header {
+    margin: 10px 0 0 0;
+}
+
+    header .images {
+        width: 300px;
+        height: 250px;
+        background-image: url(images/photo_of_me.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% 50%;
+        display: inline-block;
+    }
+    header .contact-info {
+        display: inline-block;
+        vertical-align: top;
+        padding: 30px 0 0 40px;
+    }
+        header .contact-info p {
+            margin-top: 10px;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+        header .contact-info ul {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 3px solid black;
+            font-size: 18px;
+        }
+            header .contact-info ul li {
+                display: inline-block;
+                margin-left: 5px;
+                font-size: 20px;
+            }
+
+
+#objective {
+    margin: 30px 0;
+    padding: 20px 40px 2px 40px;
+    background: rgb(229, 229, 230);
+}
+    #objective p {
+        margin: 20px 0;
+        text-align: justify;
+    }
+
+
+#my-experience .my-skills {
+    display: inline-block;
+    width: 440px;
+    text-align: center;
+}
+    #my-experience .my-skills ul {
+        padding-top: 20px;
+        display: inline-block;
+    }
+        #my-experience .my-skills ul li {
+            display: inline-block;
+            text-decoration: none;
+            margin: 5px;
+        }
+        #my-experience .my-skills img {
+                width: 70px;
+            }
+
+
+#my-experience .my-projects {
+    display: inline-block;
+    background: rgb(229, 229, 230);
+    padding: 10px 30px 30px 30px;
+    margin-left: 30px;
+    width: 435px;
+    vertical-align: top;
+}   
+    #my-experience .my-projects h3 {
+        margin-top: 30px;
+    }
+        #my-experience .my-projects ul li {
+            font-size: 19px;
+            letter-spacing: 1px;
+            margin-left: 20px;
+        }
+
+footer {
+    margin: 50px 0 20px 0;
+    text-align: center;
+}
+    footer li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 5px;
+    }
+        footer li img {
+            width: 30px;
+            display: inline-block;
+            vertical-align: bottom;
+            margin-right: 2px;
+        }
+            footer li a {
+                color: black;
+                font-size: 19px;
+                display: inline-block;
+                
+            }
